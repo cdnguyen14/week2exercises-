@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ul {
+	padding: 5px 10px;
+
+}
+
+h1 {
+	font-size: 2em;
+	margin-left: inline-block;
+	padding: 25px;
+}
+
+nav.navigation {
+	background-color: lightblue;
+	padding: 50px;
+	text-align: center;
+}
+
+li {
+	background-color: lightgrey;
+	display: inline-block;
+	margin: 5px;
+	padding: 15px;
+}
+
+li a {
+	color: black;
+	text-decoration: grey;
+}
+
+section {
+	background-color: yellow;
+	text-align: center;
+}
+ div.box {
+ 	display: inline-block;
+ 	width: 30; 
+ }
+
+div.box img {
+	width: 100%;
+
+}
+
+/*Give it the green borderline*/
+div.box p {
+	background-color: green;
+	border: 2px solid white;
+	padding: 15px;
+}
+/*gave the first letter a bigger font size and color*/
+div.box p:first-letter {
+	color: gold;
+	font-size: 2em;
+}
+
+/*img {
+	margin: 0 auto;
+	display: block;
+}
+
+div {
+	background-image: url("img/unicorn.jpg");
+	width: auto;
+	height: 400px;
+	background-repeat: no-repeat;
+}*/
